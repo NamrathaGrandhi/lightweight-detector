@@ -1,0 +1,14 @@
+source_file,label,n,flagged,rate,metric,model
+tapir.csv,0,157,0,0.0,false_positive_rate,combined_logreg
+boolq.csv,0,194,7,0.03608247422680412,false_positive_rate,combined_logreg
+code.csv,0,155,8,0.05161290322580645,false_positive_rate,combined_logreg
+platypus.csv,0,203,15,0.07389162561576355,false_positive_rate,combined_logreg
+super_glue_squad_v2.csv,0,179,14,0.0782122905027933,false_positive_rate,combined_logreg
+docRED.csv,0,151,13,0.08609271523178808,false_positive_rate,combined_logreg
+predictionguard_df.csv,0,200,20,0.1,false_positive_rate,combined_logreg
+puffin.csv,0,162,36,0.2222222222222222,false_positive_rate,combined_logreg
+benign_deepset.csv,0,61,26,0.4262295081967213,false_positive_rate,combined_logreg
+jailbreak_prompts.csv,1,73,70,0.958904109589041,recall,combined_logreg
+malicous_deepset.csv,1,33,32,0.9696969696969697,recall,combined_logreg
+forbidden_question_set_with_prompts.csv,1,7,7,1.0,recall,combined_logreg
+predictionguard_df.csv,1,65,65,1.0,recall,combined_logreg

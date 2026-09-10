@@ -1,0 +1,13 @@
+file,rows,unique,p25,median,p75,p95,group
+forbidden_question_set_with_prompts.csv,21060,21060,1636,2460,4240,5396,malicious
+jailbreak_prompts.csv,2071,1558,854,1723,3149,6021,malicious
+malicous_deepset.csv,263,263,74,126,210,581,malicious
+predictionguard_df.csv,17678,17671,39,52,331,1321,malicious
+benign_deepset.csv,399,399,31,42,79,200,benign
+boolq.csv,3270,3270,462,618,814,1252,benign
+code.csv,10001,9993,94,226,589,2316,benign
+docRED.csv,998,998,812,956,1207,1868,benign
+platypus.csv,24926,24926,120,242,840,1758,benign
+puffin.csv,6994,5834,57,115,251,1447,benign
+super_glue_squad_v2.csv,11873,11866,747,877,1095,1602,benign
+tapir.csv,116862,82113,144,163,200,316,benign

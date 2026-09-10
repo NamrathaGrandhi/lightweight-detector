@@ -1,0 +1,16 @@
+recall,model,false_positives
+0.8,Fusion+GPT-2,1
+0.8,Fusion+Qwen,1
+0.8,Word list,0
+0.85,Fusion+GPT-2,4
+0.85,Fusion+Qwen,2
+0.85,Word list,2
+0.9,Fusion+GPT-2,7
+0.9,Fusion+Qwen,12
+0.9,Word list,3
+0.95,Fusion+GPT-2,47
+0.95,Fusion+Qwen,33
+0.95,Word list,25
+0.98,Fusion+GPT-2,134
+0.98,Fusion+Qwen,97
+0.98,Word list,89

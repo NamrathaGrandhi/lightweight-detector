@@ -1,0 +1,4 @@
+comparison,mean_diff,ci_low,ci_high,verdict
+tfidf - qwen,0.015,-0.0186,0.0484,not distinguishable
+tfidf - gpt2,0.1631,0.1219,0.2041,DIFFERENT
+qwen - gpt2,0.1481,0.1131,0.1861,DIFFERENT

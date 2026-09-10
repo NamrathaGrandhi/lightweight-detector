@@ -1,0 +1,7 @@
+features,model,cv_f1,cv_sd
+fusion only (401),logreg,0.8315,0.0194
+lexical only (20k),logreg,0.8995,0.0147
+fusion + lexical,logreg,0.8338,0.0181
+fusion only (401),xgboost,0.8887,0.0115
+lexical only (20k),xgboost,0.8866,0.0177
+fusion + lexical,xgboost,0.8931,0.0113

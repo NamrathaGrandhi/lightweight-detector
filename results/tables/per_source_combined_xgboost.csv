@@ -1,0 +1,14 @@
+source_file,label,n,flagged,rate,metric,model
+super_glue_squad_v2.csv,0,179,0,0.0,false_positive_rate,combined_xgboost
+tapir.csv,0,157,1,0.006369426751592357,false_positive_rate,combined_xgboost
+code.csv,0,155,2,0.012903225806451613,false_positive_rate,combined_xgboost
+docRED.csv,0,151,3,0.019867549668874173,false_positive_rate,combined_xgboost
+boolq.csv,0,194,4,0.020618556701030927,false_positive_rate,combined_xgboost
+platypus.csv,0,203,9,0.04433497536945813,false_positive_rate,combined_xgboost
+predictionguard_df.csv,0,200,19,0.095,false_positive_rate,combined_xgboost
+puffin.csv,0,162,41,0.25308641975308643,false_positive_rate,combined_xgboost
+benign_deepset.csv,0,61,35,0.5737704918032787,false_positive_rate,combined_xgboost
+malicous_deepset.csv,1,33,31,0.9393939393939394,recall,combined_xgboost
+jailbreak_prompts.csv,1,73,71,0.9726027397260274,recall,combined_xgboost
+forbidden_question_set_with_prompts.csv,1,7,7,1.0,recall,combined_xgboost
+predictionguard_df.csv,1,65,65,1.0,recall,combined_xgboost

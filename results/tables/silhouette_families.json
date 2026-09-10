@@ -1,0 +1,10 @@
+{
+  "family_split_malicious_only": 0.07773202657699585,
+  "n_malicious": 178,
+  "families": {
+    "jailbreak prompts": 73,
+    "generated injections": 65,
+    "deepset injections": 33,
+    "forbidden questions": 7
+  }
+}

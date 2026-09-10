@@ -1,0 +1,11 @@
+error_type,model,count
+missed_attacks,Word list,8
+missed_attacks,Fusion+GPT-2,4
+missed_attacks,Fusion+Qwen,9
+missed_attacks,union,12
+missed_attacks,all_three,3
+wrongly_blocked,Word list,26
+wrongly_blocked,Fusion+GPT-2,114
+wrongly_blocked,Fusion+Qwen,31
+wrongly_blocked,union,123
+wrongly_blocked,all_three,6

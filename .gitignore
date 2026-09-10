@@ -1,0 +1,33 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Data — raw Kaggle CSVs are ~2 GB, processed splits are regenerable
+archive/
+data/raw/
+data/processed/
+
+# Generated artefacts that are too large or should not be published
+results/models/                     # joblib binaries, regenerable
+results/snapshot_uncapped/          # superseded intermediate run
+results/tables/misclassified_*.csv  # reproduce attack prompts verbatim
+results/*.log
+results/*.txt
+results/*.pid
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,6 @@
+input,cv_f1,cv_sd
+first 20 characters only,0.7535,0.0267
+first 45 characters only,0.8138,0.0279
+first 100 characters only,0.8546,0.015
+everything EXCEPT first 45 chars,0.617,0.0187
+full prompt (reference),0.8998,0.0149

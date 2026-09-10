@@ -1,0 +1,6 @@
+recall,mean_diff,ci_low,ci_high,verdict
+0.8,-0.8,-3.0,2.0,not distinguishable
+0.85,-1.0,-8.0,4.0,not distinguishable
+0.9,-4.42,-15.0,6.52,not distinguishable
+0.95,-5.11,-50.52,33.0,not distinguishable
+0.98,-18.67,-98.57,39.0,not distinguishable
